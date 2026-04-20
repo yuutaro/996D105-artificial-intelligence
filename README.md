@@ -1,11 +1,15 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# 996D105 Artificial Intelligence
 
-To start the slide show:
+Presentation sources live in `slide/`.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## Local development
 
-Edit the [slides.md](./slides.md) to see the changes.
+```bash
+cd slide
+npm install
+npm run dev
+```
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+## GitHub Pages
+
+GitHub Pages is deployed by GitHub Actions from `.github/workflows/deploy.yml`.
