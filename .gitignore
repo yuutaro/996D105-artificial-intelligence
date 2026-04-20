@@ -1,0 +1,5 @@
+papers/*
+!papers/README.md
+!papers/*/
+papers/*/*
+!papers/*/README.md
